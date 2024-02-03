@@ -1,14 +1,28 @@
+@font-face {
+    font-family: 'Zen Maru Gothic';
+    src: url(font/ZenMaruGothic-Light.ttf);
+}
+
 html {
     height: 100%;
     background: linear-gradient(0deg, #171717, #000000) no-repeat;
+    font-family: 'Zen Maru Gothic';
+}
+
+h1 {
+    font-size: 128px;
+    text-align: center;
+    background: -webkit-linear-gradient(0deg, #3500D4 0%, #ffffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 20px;
+
 }
 
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Zen Maru Gothic', serif;
     color: white;
-    
 }
 
 nav {
@@ -18,7 +32,6 @@ nav {
     padding: 20px 100px;
     height: 25px;
     background-color: #171717;
-    border: 2px solid red;
 }
 
 nav li {
