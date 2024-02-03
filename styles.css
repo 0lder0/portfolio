@@ -8,7 +8,6 @@
 }
 
 html {
-    height: 100%;
     background: linear-gradient(0deg, #171717, #000000) no-repeat;
     font-family: 'Zen Maru Gothic Light';
 }
@@ -28,7 +27,12 @@ h2 {
     margin: 0;
 }
 
-
+p {
+    font-size: 24px;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 10px;
+}
 
 body {
     margin: 0;
@@ -36,34 +40,40 @@ body {
     color: white;
 }
 
-.container-banner {
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.heading {
     height: 80vh;
     background: -webkit-linear-gradient(90deg, #3500D4 0%, #ffffff 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    display: flex;
 }
 
 /*navbar*/
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     padding: 20px 100px;
     height: 25px;
-    background-color: #171717;
 }
 
 nav li {
-    align-items: center;
+    justify-content: center;
+    align-items: left;
     list-style: none;
     display: inline;
-    padding: 0 30px;
+    padding: 0 40px 0 40px;
     font-family: 'Zen Maru Gothic Regular';
+    font-size: 20px;
+
 }
 
 nav a {
@@ -86,7 +96,7 @@ nav a {
     bottom: 0;
     left: 0;
     background-color:white;
-    transform-origin: bottom right;
+    transform-origin: bottom left;
     transition: transform 0.5s ease-out;
   }
 .hover-underline-animation:hover::after {
@@ -94,3 +104,49 @@ nav a {
     transform-origin: bottom left;
 }  
 
+/*Cards*/
+
+.cards {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 500px;
+}
+
+.card {
+    position: fixed;
+    width: 450px;
+    height: 450px;
+    background: linear-gradient(0deg, #0C0032, #3500D4) no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    margin-bottom: 100px;
+}
+
+.card-1 {
+    left: 200px;
+    top: 200px;
+}
+
+.card-2 {
+    left: 250px;
+    top: 250px;
+}
+
+.card-3 {
+    left: 300px;
+    top: 300px;
+}
+
+.card h2 {
+    font-size: 80px;
+    font-weight: 900;
+    font-stretch: condensed;
+    color: white;
+    text-transform: uppercase;
+}
