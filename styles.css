@@ -1,29 +1,53 @@
 @font-face {
-    font-family: 'Zen Maru Gothic';
+    font-family: 'Zen Maru Gothic Light';
     src: url(font/ZenMaruGothic-Light.ttf);
+}
+@font-face {
+    font-family: 'Zen Maru Gothic Regular';
+    src: url(font/ZenMaruGothic-Regular.ttf);
 }
 
 html {
     height: 100%;
     background: linear-gradient(0deg, #171717, #000000) no-repeat;
-    font-family: 'Zen Maru Gothic';
+    font-family: 'Zen Maru Gothic Light';
 }
 
 h1 {
     font-size: 128px;
     text-align: center;
-    background: -webkit-linear-gradient(0deg, #3500D4 0%, #ffffff 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding: 20px;
-
+    color: white;
+    margin: 0;
+    padding: 0;
 }
+
+h2 {
+    font-size: 64px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+
 
 body {
     margin: 0;
     padding: 0;
     color: white;
 }
+
+.container-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background: -webkit-linear-gradient(90deg, #3500D4 0%, #ffffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*navbar*/
 
 nav {
     display: flex;
@@ -39,9 +63,34 @@ nav li {
     list-style: none;
     display: inline;
     padding: 0 30px;
+    font-family: 'Zen Maru Gothic Regular';
 }
 
 nav a {
     color: white;
     text-decoration: none;
 }
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:white;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+  }
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}  
+
