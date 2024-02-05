@@ -5,7 +5,7 @@ let timeln = gsap.timeline({
         trigger: ".cards",
         pin: true,
         pinSpacing: true,
-        start: "left-=120px left",
+        start: "left-=10px top-=120px",
         end: "+=2000",
         scrub: 1
     }
@@ -53,7 +53,7 @@ timeln.to(".card-3", {
 
 timeln.to('.card-3', {});
 
-timeline.to('.card-3', {
+timeln.to('.card-3', {
     scale: 1,
     xPercent: 0,
     opacity: 1
