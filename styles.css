@@ -8,7 +8,7 @@
 }
 
 html {
-    background: linear-gradient(0deg, #171717, #000000) no-repeat;
+    background: linear-gradient(0deg,#000000, #0C0032 ) no-repeat;
     font-family: 'Zen Maru Gothic Light';
 }
 
@@ -47,12 +47,23 @@ body {
     align-items: center;
 }
 
+.heading-index {
+    height: 70vh;
+    background: -webkit-linear-gradient(0deg, #3500D4 0%, #ffffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+}
+
 .heading {
-    height: 80vh;
     background: -webkit-linear-gradient(90deg, #3500D4 0%, #ffffff 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    padding: 0;
 }
 
 /*navbar*/
@@ -109,12 +120,13 @@ nav a {
 .cards {
     max-width: 1000px;
     width: 100%;
-    margin: auto;
     position: relative;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1100px;
     margin-top: 100px;
-    margin-bottom: 800px;
-
 }
 
 .card {
@@ -130,19 +142,20 @@ nav a {
 }
 
 .card-1 {
-    left: 200px;
-    top: 200px;
+    left: 255px;
+    top: 255px;
 }
 
 .card-2 {
-    left: 250px;
-    top: 250px;
+    left: 285px;
+    top: 285px;
 }
 
 .card-3 {
-    left: 300px;
-    top: 300px;
+    left: 315px;
+    top: 315px;
 }
+
 
 .card h2 {
     font-size: 50px;
