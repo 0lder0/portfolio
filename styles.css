@@ -49,16 +49,12 @@ body {
 
 .heading-index {
     height: 70vh;
-    background: -webkit-linear-gradient(0deg, #3500D4 0%, #ffffff 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
     display: flex;
 }
 
 .heading {
-    background: -webkit-linear-gradient(90deg, #3500D4 0%, #ffffff 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
