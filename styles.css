@@ -179,19 +179,24 @@ nav a {
     flex-direction: column;
 }
 
+.card:hover {
+    background: linear-gradient(0deg,#3500D4, #0C0032) no-repeat;
+    box-shadow: #fff 0px 0px 20px;
+}
+
 .card-1 {
-    left: 255px;
-    top: 255px;
+    left: 250px;
+    top: 350px;
 }
 
 .card-2 {
-    left: 285px;
-    top: 285px;
+    left: 300px;
+    top: 400px;
 }
 
 .card-3 {
-    left: 315px;
-    top: 315px;
+    left: 350px;
+    top: 450px;
 }
 
 
