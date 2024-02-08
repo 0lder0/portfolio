@@ -1,3 +1,14 @@
+window.addEventListener('load', (event) => {
+    setTimeout(() => {
+        gsap.to('.cards', { opacity: 1, duration: 0.5 });
+    }, 100);
+
+window.addEventListener('beforeunload', () => {
+    sessionStorage.setItem('scrollY', window.scrollY);
+});
+
+const scrollY = sessionStorage.getItem('scrollY');
+
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
 let timeln = gsap.timeline({
@@ -58,3 +69,7 @@ timeln.to('.card-3', {
     xPercent: 0,
     opacity: 1
 });
+
+if (scrollY) {
+    window.scrollTo(0, scrollY);
+}});
