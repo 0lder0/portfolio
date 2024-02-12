@@ -18,7 +18,7 @@ window.addEventListener('load', (event) => {
             pinSpacing: true,
             start: "left-=10px top-=120px",
             end: "+=2000",
-            scrub: 1
+            scrub: 4
         }
     });
 
