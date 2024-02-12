@@ -312,6 +312,16 @@ nav a {
     top: 320px;
 }
 
+.card-4 {
+    left: 400px;
+    top: 370px;
+}
+
+.card-5 {
+    left: 450px;
+    top: 420px;
+}
+
 
 .card h2 {
     font-size: 50px;
