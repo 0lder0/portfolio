@@ -36,6 +36,7 @@ p {
 }
 
 
+
 body {
     margin: 0;
     padding: 0;
@@ -110,6 +111,10 @@ body {
     transform: translate(-50%, -50%);
     
 }
+
+/*Scroll icon*/
+
+
 
 /*Button*/ 
 
