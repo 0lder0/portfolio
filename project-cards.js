@@ -1,7 +1,7 @@
 window.addEventListener('load', (event) => {
     setTimeout(() => {
         gsap.to('.cards', { opacity: 1, duration: 0.5 });
-    }, 100);
+    }, 500);
 
     window.addEventListener('beforeunload', () => {
         sessionStorage.setItem('scrollY', window.scrollY);
@@ -105,6 +105,6 @@ window.addEventListener('load', (event) => {
     });
 
     if (scrollY) {
-        window.scrollTo(0, scrollY);
+        window.scrollTo(5, scrollY);
     }
 });
