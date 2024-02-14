@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-    font-size: 64px;
+    font-size: 55px;
     text-align: center;
     padding: 10px;
     margin: 0;
@@ -86,7 +86,11 @@ body {
               linear-gradient(to right, darkblue, darkorchid) border-box;
     border-radius: 25px;
     border: 4px solid transparent;
-    
+}
+
+.textbox a {
+    color: darkorchid;
+    text-decoration: none;
 }
 
 .picture {
