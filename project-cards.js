@@ -78,33 +78,4 @@ window.addEventListener('load', (event) => {
         xPercent: 0,
         opacity: 1
     });
-
-    timeln.from('.card-5', {
-        xPercent: 75,
-        opacity: 0
-    });
-    timeln.addLabel('card5');
-
-    timeln.to(".card-4", {
-        scale: 0.98,
-        xPercent: -0.4,
-        opacity: 0.6
-    }, "-=0.3");
-
-    timeln.to(".card-5", {
-        xPercent: 0,
-        opacity: 1
-    });
-
-    timeln.to('.card-5', {});
-
-    timeln.to('.card-5', {
-        scale: 1,
-        xPercent: 0,
-        opacity: 1
-    });
-
-    if (scrollY) {
-        window.scrollTo(5, scrollY);
-    }
 });

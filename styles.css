@@ -24,7 +24,7 @@ h1 {
 h2 {
     font-size: 64px;
     text-align: center;
-    padding: 0;
+    padding: 20px;
     margin: 0;
 }
 
@@ -111,11 +111,6 @@ body {
     transform: translate(-50%, -50%);
     
 }
-
-/*Scroll icon*/
-
-
-
 /*Button*/ 
 
 .button-wrapper {
