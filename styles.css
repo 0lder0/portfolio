@@ -93,6 +93,15 @@ body {
     text-decoration: none;
 }
 
+.skills-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 5% 5% 5%;
+}
+
 .picture {
     position: relative;
     width: 400px; 
@@ -115,6 +124,54 @@ body {
     transform: translate(-50%, -50%);
     
 }
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    width: 100px; 
+    height: 100px; 
+    background-size: cover;
+    object-fit: cover;
+    padding: 20px;
+    margin: 20px;
+}
+
+.html-icon {
+    background-image: url('images/html.png');
+}
+
+.css-icon {
+    background-image: url('images/css.png'); 
+}
+
+.js-icon {
+    background-image: url('images/js-format.png');
+}
+
+.nodejs-icon {
+    background-image: url('images/nodejs.png');
+}
+
+.php-icon {
+    background-image: url('images/php.png');
+}
+
+.python-icon {
+    background-image: url('images/python.png');
+}
+
+.mysql-icon {
+    background-image: url('images/mysql.png');
+}
+
+.mongodb-icon {
+    background-image: url('images/mongoDB.png');
+}
+
+.git-icon {
+    background-image: url('images/git.png');
+}
+
 /*Button*/ 
 
 .button-wrapper {
