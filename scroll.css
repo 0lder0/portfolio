@@ -1,9 +1,8 @@
 .right {
     position: fixed;
-    top: 40%;
     transform: translate(-50%,-50%);
     width: 0;
-    right: 20%;
+    right: 50%;
     height: 160px;
 }
 
