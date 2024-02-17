@@ -41,7 +41,7 @@
 .heading-index span:nth-of-type(2)::before,
 .heading-index span:nth-of-type(2)::after{
     animation-delay: 1.5s;
-}
+} 
 
 @keyframes a-ltr-after{
     0% {transform: translateX(-100%)}

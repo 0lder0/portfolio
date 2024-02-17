@@ -1,0 +1,15 @@
+h1 span {
+    display: block;
+    animation: reveal 1.5s cubic-bezier(0.3, 0.2, 0.15, 1) forwards;
+  }
+  
+  @keyframes reveal {
+    0% {
+        transform: translate(0, 100%);
+        opacity: 0; 
+    }
+    100% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
