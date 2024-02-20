@@ -8,6 +8,7 @@
 }
 
 html {
+
     scroll-behavior: smooth;
     overflow: auto;
     overflow-x: hidden;
@@ -43,6 +44,7 @@ body {
     color: white;
     background: linear-gradient(0deg,#000000, #0C0032 ) no-repeat;
     font-family: 'Zen Maru Gothic Light';
+    min-height: 100vh;
     height: 100%;
     width: 100%;
 }
@@ -415,8 +417,11 @@ nav a {
 
 footer {
     bottom: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    padding: 20px;
+    color: white;
 }
