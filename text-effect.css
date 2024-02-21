@@ -4,7 +4,7 @@
 
 .heading-index span{
     position: relative;
-    overflow: hidden;
+    overflow: -moz-hidden-unscrollable;
     display: block;
     line-height: 1.2;
 }
