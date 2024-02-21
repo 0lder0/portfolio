@@ -16,7 +16,7 @@ window.addEventListener('load', (event) => {
             trigger: ".cards",
             pin: true,
             pinSpacing: true,
-            start: "left-=10px top-=120px",
+            start: "left-=10px top-=70px",
             end: "+=2000",
             scrub: 1
         }
