@@ -78,7 +78,12 @@ body {
 }
 
 /* Mobile View */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 844px) {
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
     h1 {
         font-size: 64px;
     }
@@ -134,21 +139,23 @@ nav a {
     text-decoration: none;
 }
 
-/* Phone View */
-@media screen and (max-width: 842px) {
+/* Phone View Navbar */
+@media screen and (max-width: 844px) {
+
     nav {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
-        padding: 10px;
+        padding: 10px 15px;
         height: auto;
-        flex-wrap: wrap;
     }
     
     nav li {
-        padding: 10px 3px;
+        justify-content: center;
+        align-items: left;
+        display: inline;
+        padding: 0 5px;
         font-size: 16px;
-        text-align: center;
     }
 }
 
@@ -259,7 +266,7 @@ nav a {
 }
 
 /* Mobile View */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 844px) {
     .skills-img {
         margin: 5% 2%;
     }
@@ -483,11 +490,12 @@ nav a {
     padding: 15px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 844px) {
+
     .cards {
         flex-wrap: wrap;
-        margin-bottom: 300px;
-        margin-top: 300px; 
+        margin-bottom: 400px;
+        margin-top: 200px; 
     }
 
     .card {
@@ -541,7 +549,6 @@ nav a {
 footer {
     bottom: 0;
     left: 0;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;

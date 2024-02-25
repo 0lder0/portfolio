@@ -16,7 +16,7 @@ window.addEventListener('load', (event) => {
             trigger: ".cards",
             pin: true,
             pinSpacing: true,
-            start: "left-=10px top-=70px",
+            start: isMobileView() ? "bottom-=80vh" : "left-=10px top-=70px",
             end: "+=2000",
             scrub: 1
         }
@@ -78,4 +78,12 @@ window.addEventListener('load', (event) => {
         xPercent: 0,
         opacity: 1
     });
+
+    if (scrollY) {
+        window.scrollTo(0, scrollY);
+    }
 });
+
+function isMobileView() {
+    return window.innerWidth <= 768; // Adjust breakpoint as needed
+}
