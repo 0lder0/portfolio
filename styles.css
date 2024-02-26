@@ -556,3 +556,182 @@ footer {
     color: white;
 }
 
+/* Slightly Bigger Phone View */
+@media screen and (max-width: 960px) {
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    h1 {
+        font-size: 80px; /* Adjusted font size for h1 */
+    }
+    h2 {
+        font-size: 44px; /* Adjusted font size for h2 */
+        padding: 8px; /* Adjusted padding for h2 */
+    }
+    p {
+        font-size: 20px; /* Adjusted font size for p */
+        margin-bottom: 5px; /* Adjusted margin for p */
+    }
+    .container {
+        margin-top: 10px; /* Adjusted margin for .container */
+    }
+    .heading-index {
+        height: auto; /* Adjusted height for .heading-index */
+        margin-top: 10px; /* Adjusted margin for .heading-index */
+    }
+    .heading {
+        margin-top: 50px; /* Adjusted margin for .heading */
+        padding-bottom: 10px; /* Adjusted padding for .heading */
+    }
+    nav {
+        padding: 10px 15px; /* Adjusted padding for nav */
+    }
+    nav li {
+        padding: 0 5px; /* Adjusted padding for nav li */
+        font-size: 16px; /* Adjusted font size for nav li */
+    }
+    .textbox {
+        margin: 30px 10%; /* Adjusted margin for .textbox */
+        padding: 10px; /* Adjusted padding for .textbox */
+        border-radius: 15px; /* Adjusted border-radius for .textbox */
+    }
+    .skills-img {
+        margin: 5% 2%; /* Adjusted margin for .skills-img */
+    }
+    .picture {
+        width: 300px; /* Adjusted width for .picture */
+        height: 300px; /* Adjusted height for .picture */
+        margin: 100px auto 0; /* Adjusted margin for .picture */
+        margin-bottom: 30px; /* Adjusted margin-bottom for .picture */
+    }
+    .icon {
+        width: 60px; /* Adjusted width for .icon */
+        height: 60px; /* Adjusted height for .icon */
+        padding: 10px; /* Adjusted padding for .icon */
+        margin: 10px; /* Adjusted margin for .icon */
+    }
+    .card {
+        width: calc(100% - 40px); /* Adjusted width for .card */
+        max-width: 300px; /* Adjusted max-width for .card */
+        height: 300px; /* Adjusted height for .card */
+    }
+    .cards {
+        margin-bottom: 400px; /* Adjusted margin-bottom for .cards */
+        margin-top: 100px; /* Adjusted margin-top for .cards */
+    }
+    .card-1 {
+        left: 10%; /* Adjusted left position for .card-1 */
+        top: 60px; /* Adjusted top position for .card-1 */
+    }
+    .card-2 {
+        left: 13%; /* Adjusted left position for .card-2 */
+        top: 75px; /* Adjusted top position for .card-2 */
+    }
+    .card-3 {
+        left: 16%; /* Adjusted left position for .card-3 */
+        top: 90px; /* Adjusted top position for .card-3 */
+    }
+    .card-4 {
+        left: 19%; /* Adjusted left position for .card-4 */
+        top: 105px; /* Adjusted top position for .card-4 */
+    }
+    .card h2 {
+        font-size: 24px; /* Adjusted font size for .card h2 */
+    }
+    .card p {
+        font-size: 16px; /* Adjusted font size for .card p */
+    }
+}
+
+
+/* Slightly Smaller Phone View */
+@media screen and (max-width: 600px) {
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    h1 {
+        font-size: 64px; 
+    }
+    h2 {
+        font-size: 36px; 
+        padding: 5px; 
+    }
+    p {
+        font-size: 18px; 
+        margin-bottom: 5px; 
+    }
+    .container {
+        margin-top: 20px; 
+    }
+    .heading-index {
+        height: auto; 
+        margin-top: 20px; 
+    }
+    .heading {
+        margin-top: 100px; 
+        padding-bottom: 15px; 
+    }
+    nav {
+        padding: 10px 15px; 
+    }
+    nav li {
+        padding: 0 5px; 
+        font-size: 16px; 
+    }
+    .textbox {
+        margin: 50px 10%; 
+        padding: 15px; 
+        border-radius: 15px; 
+    }
+    .skills-img {
+        margin: 5% 2%; 
+    }
+    .picture {
+        width: 250px; 
+        height: 250px;
+        margin: 150px auto 0;
+        margin-bottom: 50px;
+    }
+    .icon {
+        width: 70px; 
+        height: 70px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .card {
+        width: calc(100% - 40px); 
+        max-width: 250px; 
+        height: 250px; 
+    }
+    .cards {
+        flex-wrap: wrap; 
+        margin-bottom: 400px; 
+        margin-top: 200px; 
+    }
+    .card-1 {
+        left: 10%; 
+        top: 60px; 
+    }
+    .card-2 {
+        left: 13%; 
+        top: 75px; 
+    }
+    .card-3 {
+        left: 16%;
+        top: 90px;
+    }
+    .card-4 {
+        left: 19%;
+        top: 105px; 
+    }
+    .card h2 {
+        font-size: 24px; 
+    }
+    .card p {
+        font-size: 16px; 
+    }
+}
