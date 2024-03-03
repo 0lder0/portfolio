@@ -1,4 +1,4 @@
-window.addEventListener('load', () => {
+document.addEventListener('DOMContentLoaded', () => {
     const loader = document.querySelector('.loader');
 
     loader.classList.add('loader--hidden');
