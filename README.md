@@ -1,20 +1,20 @@
-**Portfolio README**
+## Portfolio README
 
-**Description:**
+## Description:
 This is a personal portfolio website showcasing various projects, hobbies, and background information.
 
-**Features:**
+## Features:
 - Navigation: Easy access to different sections such as Work, Hobbies, and About Me.
 - Work Showcase: Highlights projects with brief descriptions and links to repositories.
 - Hobby Section: Features hobbies.
 - About Me: Provides background information and skills.
 - Responsive Design: Ensures accessibility across devices.
 
-**Tech Used:**
+## Tech Used:
 - HTML, CSS, JavaScript
 - GSAP for animations
 
-**Folder Structure:**
+## Folder Structure:
 - `index.html`: Homepage
 - `work.html`: Projects showcase
 - `hobby.html`: Hobby section
@@ -22,5 +22,3 @@ This is a personal portfolio website showcasing various projects, hobbies, and b
 - CSS files for styling
 - JavaScript files for animations
 - Image and font folders
-
-**License:** MIT
